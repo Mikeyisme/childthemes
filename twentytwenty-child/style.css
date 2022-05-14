@@ -1,0 +1,64 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Twenty Child Theme
+ Author:       Mikal Williams
+ Author URI:   http://example.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+.entry-categories-inner {
+	margin-top: 1rem;
+}
+
+.featured-media {
+	margin-top: 4rem;
+}
+
+.custom-archive {
+    display: flex;
+    padding: 8rem 0 0;
+    flex-wrap: wrap;
+}
+
+.custom-archive .post {
+    flex-basis: 50%;
+	padding-bottom: 4rem;
+}
+
+.custom-archive h2.entry-title {
+    font-size: 5rem;
+}
+
+.custom-archive .post-inner {
+    padding-top: 4rem;
+}
+#site-header {
+    position: fixed;
+    width: 100%;
+	background-color: brown;
+}
+
+#site-content {
+    padding-top: 16rem;
+}
+.header-inner {
+	padding: 5.8rem 0;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+#site-header.shrink .header-inner  {
+	padding: 1.8rem 0;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
